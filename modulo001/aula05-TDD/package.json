@@ -1,0 +1,29 @@
+{
+  "name": "aula05-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "seed": "node ./seed",
+    "test": "npx mocha -w --parallel \"./{,!(node_modules)/**/}*.test.js\"",
+    "test:cov": "npx nyc npx mocha \"./{,!(node_modules)/**/}*.test.js\"",
+    "test:cov2": "npx nyc mocha --no-parallel \"./{,!(node_modules)/**/}*.test.js\" --exit --check-leaks"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "chai": "^4.3.7",
+    "faker": "^6.6.6",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  }
+}

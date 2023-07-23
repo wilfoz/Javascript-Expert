@@ -1,0 +1,29 @@
+{
+  "name": "aula02-stubs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/service.test.js"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sinon": "^15.0.1"
+  },
+  "dependencies": {
+    "diff": "^5.1.0",
+    "has-flag": "^4.0.0",
+    "isarray": "^0.0.1",
+    "just-extend": "^4.2.1",
+    "lodash.get": "^4.4.2",
+    "nise": "^5.1.4",
+    "path-to-regexp": "^1.8.0",
+    "supports-color": "^7.2.0",
+    "type-detect": "^4.0.8"
+  },
+  "description": ""
+}

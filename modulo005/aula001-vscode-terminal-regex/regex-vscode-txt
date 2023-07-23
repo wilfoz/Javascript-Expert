@@ -1,0 +1,28 @@
+https://regex101.com/
+/^\d{3}.\d{3}.\d{3}-\d{2}$/gm
+
+123.123.123-14
+555.111.222-10
+444.333.221-11
+
+replace [.-] - vazio
+
+/^(\w+),\s(\w+)$/gm
+Wendel, Luiz
+Wilerson, Flavio
+Fabio, Cabaco
+
+replace {firstName: "$2", lastName: "$1"}
+
+{firstName: "Luiz", lastName: "Wendel"}
+{firstName: "Flavio", lastName: "Wilerson"}
+{firstName: "Caba", lastName: "Fabio"}
+
+\[(.*?)\]\(([http|https].*?)\)
+
+O [Wilerson Antonio] (https://wilerfoz.com) faz coisa nadinha de nada seguir [Youtube](http://twiter.com/wil_) ou até no
+[Herogram](http://herogram.com/wil_)
+
+Ah e pode pesquisar no [Google](http://google.com)
+
+Vai na fé!
