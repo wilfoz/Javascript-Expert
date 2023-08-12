@@ -1,0 +1,82 @@
+git stash 
+npm version patch 
+git stash pop
+
+npm publish
+
+npm outdated
+
+npm-github-key
+
+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
+
+git remote set-url origin https://github.com/wilfoz/fluentsql-v1.git
+
+npm login --registry "https://npm.pkg.github.com"
+npm publish --registry https://npm.pkg.github.com
+
+npmrc -c work
+npm config set registry https://npm.pkg.github.com
+cat ~/.npmrc
+
+
+npmrc -c opensource
+cat ~/.npmrcs/work
+
+npm login --scope=@wilfoz/fluentsql --registry https://npm.pkg.github.com
+npm i -g verdaccio
+
+
+04.npm-workspaces:
+
+npm init -w string-util -y --scope @wilfoz
+
+npm i -D nodemon -w string-util
+npm i -D c8 --workspaces
+
+npm test -w string-util
+
+npm run test:dev --workspace string-util
+npm init -w date-util -y --scope @wilfoz
+
+npm i @wilfoz/string-util -w @wilfoz/date-util
+
+npm config set registry=http://localhost:4873
+npm publish --workspaces
+
+npm unpublish -f --workspaces
+
+
+MODULO009
+
+01.REPL
+
+curl "localhost:3000?salary=5000&discount=15"
+
+node inspect index.mjs
+list(100)
+setBreakpoint(13)
+cont
+exec req.url
+exec new URLSearchParams(req.url).get('discount')
+.save debug.log
+
+exec Object.fromEntries(new URLSearchParams(req.url))
+clearBreakpoint('index.mjs', 13)
+breakpoints
+sb(16)
+cont
+next
+repl
+data
+
+node --experimental-repl-await
+await Promise.resolve(123)
+
+node --inspect index.mjs
+node --inspect-brk index.mjs
+
+02.bash vs javascript
+
+sh index.sh
+

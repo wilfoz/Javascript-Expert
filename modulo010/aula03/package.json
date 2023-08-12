@@ -1,0 +1,20 @@
+{
+  "name": "@wilfoz/aula02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node webapi.js",
+    "example01": "node examples/concat-streams-async-iterators.js | tee logs/concat-streams-async-iterators.log",
+    "api1": "curl localhost:3000 | tee logs/logs1.txt",
+    "api2": "curl localhost:4000 | tee logs/logs2.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
