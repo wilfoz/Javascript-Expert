@@ -80,3 +80,5 @@ node --inspect-brk index.mjs
 
 sh index.sh
 
+MODULO011
+docker run -v ~/docker --name mongodb -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=wilfoz -e MONGO_INITDB_ROOT_PASSWORD=12345 mongo

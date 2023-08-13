@@ -1,0 +1,13 @@
+{
+  "name": "modulo011",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node 1-server-error.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
