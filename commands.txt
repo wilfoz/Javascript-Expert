@@ -19,6 +19,17 @@ npmrc -c work
 npm config set registry https://npm.pkg.github.com
 cat ~/.npmrc
 
+MODULO 12
+
+NPM
+autocannon
+
+npm i benchmark@2
+
+node 
+ >> process.memoryUsage()
+ 
+
 
 npmrc -c opensource
 cat ~/.npmrcs/work
